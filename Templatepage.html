@@ -1,0 +1,742 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Green Template Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../img/TemplateCSS.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        .block1 {
+            display: grid;
+            grid-template-rows: 40px;
+            grid-template-columns: 30% 70%;
+            padding-left: 100px;
+            padding-right: 40px;
+        }
+
+        .block1col2 {
+            text-align: right;
+            padding-right: 150px;
+        }
+
+        .block2 {
+            display: grid;
+            grid-template-rows: 70px;
+            grid-template-columns: 30% 70%;
+            padding-left: 120px;
+            padding-right: 40px;
+        }
+
+        li {
+            display: inline;
+            padding-left: 34px;
+        }
+
+        .block2list {
+            padding-top: 20px;
+        }
+
+        .bgpic {
+            display: grid;
+            grid-template-rows: 400px;
+            background-color: green;
+        }
+
+        #ReadMore {
+            background-image: url(../Images/slide2.jpg);
+            opacity: 0.5;
+        }
+
+        #rh {
+            color: white;
+        }
+
+
+        #block3 {
+            display: grid;
+            grid-template-rows: 250px;
+            grid-template-columns: 15% 23.33% 23.33% 23.33% 15%;
+            padding-top: 20px;
+            ;
+        }
+
+        #block5 {
+            display: grid;
+            grid-template-rows: 250px 250px;
+            grid-template-columns: 15% 23.33% 23.33% 23.33% 15%;
+            padding-top: 20px;
+            ;
+        }
+
+        #block5data {
+            font-size: 17px;
+            opacity: 0.6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-right: 27px;
+        }
+
+
+
+
+        .aboutuscontent {
+            display: grid;
+            grid-template-rows: 500px;
+            grid-template-columns: 10% 40% 40% 10%;
+            padding-top: 20px;
+            ;
+        }
+
+        .box2 {
+            padding-left: 20px;
+        }
+
+        #aboutuscontentheading {
+            font-size: 34px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            opacity: 0.6;
+        }
+
+        #aboutuscontentitalic {
+            font-style: italic;
+            font-size: 15px;
+            opacity: 0.9;
+        }
+
+        .box2 {
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+
+        #aboutuscontentdata {
+            font-size: 17px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #servicesheading {
+            font-size: 40px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 400;
+            text-align: center;
+            text-decoration-line: var(#50C878);
+        }
+
+        #servicesheadingtext {
+            text-align: center;
+            font-weight: bold;
+            color: #c0c0c0;
+            padding-left: 150px;
+            padding-right: 200px;
+        }
+
+        #servicesheadingdata {
+            text-align: center;
+            color: #231F20;
+            padding-left: 10px;
+            padding-right: 20px;
+        }
+
+        .servicescontentrow {
+            display: grid;
+            padding-top: 50px;
+            grid-template-rows: 350px 350px;
+            grid-template-columns: 15% 23.33% 23.33% 23.33% 15%;
+        }
+
+        #nill {
+            padding-left: 10px;
+        }
+
+        #servicescontentbox1 {
+            padding: 10px;
+        }
+
+        #servicescontentbox2 {
+            padding: 10px;
+        }
+
+        #servicescontentbox3 {
+            padding: 10px;
+        }
+
+        #nill {
+            padding-left: 10px;
+        }
+
+        #servicesheading {
+            font-size: 27px;
+            font-weight: bold;
+            opacity: 0.6;
+        }
+
+        #serviceslogo {
+            padding-left: 90px;
+        }
+
+        #clients {
+            display: grid;
+            grid-template-rows: 150px;
+            grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+            margin-left: 60px;
+            margin-top: 40px;
+            opacity: 0.4;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .calltoaction {
+            display: grid;
+            padding-top: 50px;
+            ;
+            padding-left: 90px;
+            grid-template-rows: 200px;
+            grid-template-columns: 70% 30%;
+            margin: 50px;
+            background-color: #50C878;
+            color: white;
+        }
+
+        .CtoA {
+            padding-top: 50px;
+            padding-left: 50px;
+        }
+
+        #calltoactionbutton {
+            border: 2px solid white;
+            border-radius: 10px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .portfolio1 {
+            position: absolute;
+            left: 150px;
+        }
+
+        .portfolio2 {
+            position: absolute;
+            left: 520px;
+        }
+
+        .portfolio3 {
+            position: absolute;
+            left: 950px;
+        }
+
+        .portfolio4 {
+            position: absolute;
+            top: 3910px;
+            left: 950px;
+        }
+
+        .portfolio5 {
+            position: absolute;
+            top: 3950px;
+            left: 520px;
+        }
+
+        .portfolio6 {
+            position: relative;
+            padding-left: 140px;
+            top: 490px;
+        }
+
+        .portfolio7 {
+            position: absolute;
+            top: 4200px;
+            left: 950px;
+        }
+
+        .portfolio8 {
+            position: absolute;
+            top: 4469px;
+            left: 950px;
+        }
+
+        .portfolio9 {
+            position: absolute;
+            top: 4520px;
+            left: 520px;
+        }
+
+        .lastblocks {
+            padding-top: 650px;
+        }
+
+        .teamcontentrow {
+            display: grid;
+            padding-top: 50px;
+            grid-template-rows: 500px;
+            grid-template-columns: 12.5% 25% 25% 25% 12.5%;
+        }
+
+        #designation {
+            background-color: white;
+        }
+
+        #teamlogo {
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            padding-left: 31px;
+        }
+
+        .teamlogorow {
+            padding-left: 100px;
+        }
+
+        #teammedialogo {
+            color: gray;
+            /*background-color: #c0c0c0;*/
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            height: 270px;
+            margin: 20px;
+        }
+
+        .contactblock {
+            padding-top: 40px;
+        }
+
+        .contactblockrow {
+            display: grid;
+            grid-template-rows: 650px;
+            grid-template-columns: 10% 38% 4% 38% 10%;
+            padding-top: 40px;
+        }
+
+        #contactformdetails {
+            border-top: 3px solid #50C878;
+            border-bottom: 3px solid #50C878;
+            padding-left: 40px;
+            padding-top: 20px;
+        }
+
+        #contactform {
+            border-top: 3px solid #50C878;
+            border-bottom: 3px solid #50C878;
+            padding-left: 40px;
+            padding-top: 20px;
+        }
+
+        [type^='bu'] {
+            background-color: #50C878;
+            ;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            margin-top: 40px;
+            margin-left: 140px;
+        }
+
+        #footerheading {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            font-size: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            display: block;
+        }
+
+        #footertext {
+            text-align: center;
+            display: block;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: italic;
+        }
+
+        .SocialMediaLogos {
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        i {
+            padding: 10px;
+            border-radius: 50px;
+            margin: 5px;
+        }
+
+        #icons {
+            background-color: #50C878;
+        }
+
+        .blockemail {
+            text-align: right;
+            padding-right: 200px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div>
+
+        <div class="block1">
+
+            <div class="block1col1">
+                <i class="fa fa-envelope" style="color:#50C878"><span style="color:black;">info@example.com</span></i>
+                <i class="fa fa-phone" style="color:#50C878"><span style="color:black;">+1 5589 55488 55 </span></i>
+            </div>
+            <div class="block1col2">
+                <i id="teammedialogo" class="fa fa-twitter"></i>
+                <i id="teammedialogo" class="fa fa-facebook"></i>
+                <i id="teammedialogo" class="fa fa-instagram"></i>
+                <i id="teammedialogo" class="fa fa-linkedin "></i>
+            </div>
+        </div>
+        <div class="block2">
+
+            <div class="block2heading"><p style="color:#50C878;font-size:27px;font-weight:bold;">GREEN</p></div>
+            <div class="block2list">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Portfolio</li>
+                    <li>Team</li>
+                    <li>Dropdown</li>
+                    <li>Contact</li>
+                    <li><button class="btn btn-outline-success">Get started</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bgpic">
+
+            <div id="ReadMore">
+                <p id="rh" style="text-align:center;font-weight:bold;font-size:40px;">Lorem Ipsum Dolor</p>
+            </div>
+        </div>
+
+
+        <section id="block3">
+            <div id="nill"></div>
+            <div id="block5box1">
+                <i class="fa fa-laptop" aria-hidden="true" style="font-size:xx-large;color:#50C878"></i>
+                <p id="block5heading" style="font-size: 20px;font-weight: bold;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Lorem Ipsum</p>
+                <p id="block5data">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat </p>
+            </div>
+            <div id="block5box2">
+                <i class="fa fa-briefcase" aria-hidden="true" style="font-size:xx-large;color:#50C878"></i>
+                <p id="block5heading" style="font-size: 20px;font-weight: bold;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Dolor Sitema </p>
+                <p id="block5data">Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+            </div>
+            <div id="block5box3">
+                <i class="fa fa-calendar-minus-o" aria-hidden="true" style="font-size:xx-large;color:#50C878"></i>
+                <p id="block5heading" style="font-size: 20px;font-weight: bold;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Sed ut perspiciatis</p>
+                <p id="block5data">Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+            </div>
+            <div id="nill"></div>
+        </section>
+        <section class="services">
+            <p id="servicesheading">ABOUT US</p>
+            <p id="servicesheadingtext">
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo
+                qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+            <div class="aboutuscontent">
+                <div></div>
+                <div class="box1">
+                    <span id="aboutuscontentheading">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</span><br>
+                    <p id="aboutuscontentitalic">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <p id="aboutuscontentdata">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p id="aboutuscontentdata">Duis aute irure dolor in reprehenderit in voluptate velit. </p>
+                    <p id="aboutuscontentdata">
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro
+                        dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p id="aboutuscontentdata">
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui officia deserunt mollit anim id est laborum
+                    </p>
+                </div>
+                <div class="box2">
+                    <img src="../img/about.jpg" width="100%">
+                </div>
+                <div></div>
+            </div>
+        </section>
+        <section id="block5">
+            <div id="nill"></div>
+            <div id="block5box1">
+                <p style="color:#50C878; font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">01</p>
+                <p id="block5heading" style="font-size: 25px;opacity:0.6;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Lorem Ipsum</p>
+                <p id="block5data">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat </p>
+            </div>
+            <div id="block5box2">
+                <p style="color:#50C878; font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">02</p>
+                <p id="block5heading" style="font-size: 25px;opacity:0.6;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Repellat Nihil </p>
+                <p id="block5data">Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+            </div>
+            <div id="block5box3">
+
+                <p style="color:#50C878; font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">03</p>
+                <p id="block5heading" style="font-size: 25px;opacity:0.6;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Ad ad velit qui </p>
+                <p id="block5data">Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+            </div>
+            <div id="nill"></div>
+            <div id="nill"></div>
+            <div id="block5box4">
+                <p style="color:#50C878; font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">04</p>
+                <p id="block5heading" style="font-size: 25px;opacity:0.6;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Repellendus molestiae </p>
+                <p id="block5data">Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa  </p>
+            </div>
+            <div id="block5box5">
+                <p style="color:#50C878; font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">05</p>
+                <p id="block5heading" style="font-size: 25px;opacity:0.6;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Sapiente Magnam </p>
+                <p id="block5data">Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est quibusdam </p>
+            </div>
+            <div id="block5box6">
+                <p style="color:#50C878; font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">06</p>
+                <p id="block5heading" style="font-size: 25px;opacity:0.6;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    Facilis Impedit
+                </p>
+                <p id="block5data">
+                    Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae voluptatibus corporis sequi
+                </p>
+            </div>
+            <div id="nill"></div>
+        </section>
+        <section class="services">
+            <p id="servicesheading">OUR CLIENTS</p>
+            <p id="servicesheadingtext">
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo
+                qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+            <ul id="clients">
+                <li><img src="../img/clients/client1.png" height="30" width="100"></li>
+                <li><img src="../img/clients/client2.png" height="20" width="100"></li>
+                <li><img src="../img/clients/client3.png" height="30" width="100"></li>
+                <li><img src="../img/clients/client4.png" height="40" width="100"></li>
+                <li><img src="../img/clients/client5.png" height="30" width="100"></li>
+                <li><img src="../img/clients/client6.png" height="30" width="100"></li>
+            </ul>
+        </section>
+
+        <section class="services">
+            <p id="servicesheading">SERVICES</p>
+            <p id="servicesheadingtext">
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo
+                qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+        </section>
+        <div class="servicescontent">
+            <div class="servicescontentrow">
+                <div id="nill"></div>
+                <div id="servicescontentbox1">
+                    <img id="serviceslogo" src="../img/Services/box1.png">
+                    <p id="servicesheading">Lorem Ipsum</p>
+                    <p id="servicesheadingdata">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                </div>
+                <div id="servicescontentbox2">
+                    <img id="serviceslogo" src="../img/Services/box2.png">
+                    <p id="servicesheading">Sed Perspicitias</p>
+                    <p id="servicesheadingdata">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore </p>
+                </div>
+                <div id="servicescontentbox3">
+                    <img id="serviceslogo" src="../img/Services/box3.png">
+                    <p id="servicesheading">Magni Dolores</p>
+                    <p id="servicesheadingdata">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                </div>
+                <div id="nill"></div>
+                <div id="nill"></div>
+                <div id="servicescontentbox4">
+                    <img id="serviceslogo" src="../img/Services/box1.png">
+                    <p id="servicesheading">Nemo Enim</p>
+                    <p id="servicesheadingdata">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis </p>
+                </div>
+                <div id="servicescontentbox5">
+                    <img id="serviceslogo" src="../img/Services/box2.png">
+                    <p id="servicesheading">Dele Cardo</p>
+                    <p id="servicesheadingdata">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                </div>
+                <div id="servicescontentbox6">
+                    <img id="serviceslogo" src="../img/Services/box3.png">
+                    <p id="servicesheading">Divera Don</p>
+                    <p id="servicesheadingdata">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                </div>
+                <div id="nill"></div>
+            </div>
+        </div>
+        <div class="calltoaction">
+
+            <div>
+                <h2>Call To Action</h2>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="CtoA"><span id="calltoactionbutton">Call To Action</span></div>
+        </div>
+        <section class="services">
+            <p id="servicesheading">PORTFOLIO</p>
+            <p id="servicesheadingtext">
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo
+                qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+        </section>
+        <div class="portfolioimages">
+            <div class="portfolio1">
+                <img src="./portfolio/portfolio-1.jpg" alt="portfolio IMAGE" height="450" width="350" />
+            </div>
+            <div class="portfolio2">
+                <img src="./portfolio/portfolio-2.jpg" alt="portfolio IMAGE" height="250" width="390" />
+            </div>
+            <div class="portfolio3">
+                <img src="./portfolio/portfolio-3.jpg" alt="portfolio IMAGE" height="220" width="370" />
+            </div>
+            <div class="portfolio4">
+                <img src="./portfolio/portfolio-4.jpg" alt="portfolio IMAGE" height="250" width="370" />
+            </div>
+            <div class="portfolio5">
+                <img src="./portfolio/portfolio-5.jpg" alt="portfolio IMAGE" height="550" width="390" />
+            </div>
+            <div class="portfolio6">
+                <img src="./portfolio/portfolio-6.jpg" alt="portfolio IMAGE" height="550" width="350" />
+            </div>
+            <div class="portfolio7">
+                <img src="./portfolio/portfolio-7.jpg" alt="portfolio IMAGE" height="250" width="370" />
+            </div>
+            <div class="portfolio8">
+                <img src="./portfolio/portfolio-8.jpg" alt="portfolio IMAGE" height="250" width="370" />
+            </div>
+            <div class="portfolio9">
+                <img src="./portfolio/portfolio-9.jpg" alt="portfolio IMAGE" height="250" width="390" />
+            </div>
+        </div>
+        <div class="lastblocks">
+            <section class="services">
+                <p id="servicesheading">TEAM</p>
+                <p id="servicesheadingtext">
+                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo
+                    qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                </p>
+            </section>
+            <div class="teamcontent">
+                <div class="teamcontentrow">
+                    <div id="nill"></div>
+                    <div id="servicescontentbox1">
+                        <img id="teamlogo" src="../img//team/team1.jpg">
+                        <p id="servicesheading">Walter White</p>
+                        <p id="servicesheadingdata"><i id="designation">Chief Executive Officer</i></p>
+                        <p id="servicesheadingdata">Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut </p>
+                        <div class="teamlogorow">
+                            <i id="teammedialogo" class="fa fa-twitter"></i>
+                            <i id="teammedialogo" class="fa fa-facebook"></i>
+                            <i id="teammedialogo" class="fa fa-instagram"></i>
+                            <i id="teammedialogo" class="fa fa-linkedin "></i>
+                        </div>
+                    </div>
+                    <div id="servicescontentbox2">
+                        <img id="teamlogo" src="../img/team/team2.jpg">
+                        <p id="servicesheading">Sarah Jhinson</p>
+                        <p id="servicesheadingdata"><i id="designation">Product Manager</i></p>
+                        <p id="servicesheadingdata">Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus </p>
+                        <div class="teamlogorow">
+                            <i id="teammedialogo" class="fa fa-twitter"></i>
+                            <i id="teammedialogo" class="fa fa-facebook"></i>
+                            <i id="teammedialogo" class="fa fa-instagram"></i>
+                            <i id="teammedialogo" class="fa fa-linkedin "></i>
+                        </div>
+                    </div>
+                    <div id="servicescontentbox3">
+                        <img id="teamlogo" src="../img/team/team3.jpg">
+                        <p id="servicesheading">William Anderson</p>
+                        <p id="servicesheadingdata"><i id="designation">CTO</i></p>
+                        <p id="servicesheadingdata">Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara</p>
+                        <div class="teamlogorow">
+                            <i id="teammedialogo" class="fa fa-twitter"></i>
+                            <i id="teammedialogo" class="fa fa-facebook"></i>
+                            <i id="teammedialogo" class="fa fa-instagram"></i>
+                            <i id="teammedialogo" class="fa fa-linkedin "></i>
+                        </div>
+                    </div>
+                    <div id="nill"></div>
+                </div>
+            </div>
+            <div class="contactblock">
+                <section class="services">
+                    <p id="servicesheading">CONTACT</p>
+                    <p id="servicesheadingtext">
+                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo
+                        qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                    </p>
+                </section>
+            </div>
+            <div class="contactblockrow">
+                <div id="nill"></div>
+                <div id="contactformdetails">
+                    <span><i class="fa fa-map" id="icons"></i></span>
+                    <span style="font-size:27px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bold;opacity:0.6;">Location:</span>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                    <span><i class="fa fa-envelope" id="icons"></i></span>
+                    <span style="font-size:27px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bold;opacity:0.6;">Email:</span>
+                    <p>info@example.com</p>
+                    <span><i class="fa fa-phone" id="icons"></i></span>
+                    <span style="font-size:27px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bold;opacity:0.6;">Call:</span>
+                    <p>+1 5589 55488 55s</p>
+                    <iframe width="400" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.118871620954!2d77.23883161508313!3d28.656159182408427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfce26ec085ef%3A0x441e32f4fa5002fb!2sRed%20Fort!5e0!3m2!1sen!2sin!4v1660144380921!5m2!1sen!2sin" width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div id="nill"></div>
+                <div id="contactform">
+                    <label name="name">YOUR NAME</label> &nbsp;&nbsp;
+                    <span>
+                        <input type="text" value="">
+                    </span>
+                    <div>
+                        <label name="name">YOUR EMAIL </label> &nbsp;&nbsp;
+                        <span> <input type="text" value=""></span>
+                    </div>
+
+                    <label name="name">Subject</label>
+                    <span><input type="text" size="78" value=""></span>
+                    <p><label name="message">Message</label></p>
+                    <span><textarea id="message" name="message" rows="10" cols="70"></textarea></span>
+                    <input type="button" value="Send Message">
+
+                </div>
+                <div id="nill"></div>
+            </div>
+
+
+
+
+            <footer>
+                <span id="footerheading">Green</span>
+                <span id="footertext">Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</span>
+
+                <div class="SocialMediaLogos">
+                    <i class="fa fa-twitter" id="icons"></i>
+                    <i class="fa fa-facebook" id="icons"></i>
+                    <i class="fa fa-instagram" id="icons"></i>
+                    <i class="fa fa-skype" id="icons"></i>
+                    <i class="fa fa-linkedin" id="icons"></i>
+                </div>
+                <span id="footertext">© Copyright Green . All Rights Reserved</span>
+                <p id="footertext">Designed by BootstrapMade</p>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
